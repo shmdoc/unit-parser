@@ -1,0 +1,12 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+INSERT DATA {
+	GRAPH <http://mu.semte.ch/application> {
+		<http://example.com/columns/a2aacaf6-ca8f-11ea-a114-0242ac120003> ext:unit <http://vocab.nerc.ac.uk/collection/P06/current/UYRS/> .
+	}
+}
+
+# Na deze query kunnen de kolommen die een "Jaar (UYRS)" representeren, hier teruggevonden worden:
+# http://localhost//units/UYRS/column
+# Op deze link vind je de unit van de kolom:
+# http://localhost/columns/a2aacaf6-ca8f-11ea-a114-0242ac120003/unit
